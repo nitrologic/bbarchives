@@ -1,0 +1,252 @@
+body{
+	background: #99BEC8 url("background.png");
+	font-variant: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: small;
+	color: #7575BB;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	color: #CC99CC;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+a.tab{
+	font-weight: normal;
+	color: #CC99CC;
+	font-variant: small-caps;
+	font-size: 10pt;
+}
+
+a.seltab{
+	font-weight: normal;
+	color: #CC66CC;
+	font-size: 10pt;
+}
+
+a.menuitem{
+	color: #CC99CC;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 9pt;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #FF66CC;
+}
+
+a.tab:hover{
+	color: #FF66CC;
+}
+
+a.seltab:hover{
+	color: #FF66CC;
+}
+
+a.menuitem:hover{
+	color: #FF66CC;
+	text-decoration: none;
+}
+
+td{
+	font: normal small verdana;
+	color: #7575BB;
+}
+
+h1{
+	font: bold medium verdana;
+	color: #7575BB;
+}
+
+h3{
+	font: bold small verdana;
+	color: #7575BB;
+}
+
+font.tiny{
+	font: normal xx-small verdana;
+	color: #9999CC;
+}
+
+td.tab{
+	height: 17px;
+	background: url("tab.png");
+	font-variant: normal;
+	font-weight: normal;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+td.tableft{
+	width: 11px;
+	background: url("tableft.png");
+}
+
+td.tabright{
+	width: 12px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 17px;
+	background: url("seltab.png");
+	padding-left: 1px;
+	padding-right: 1px;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+td.seltableft{
+	width: 11px;
+	margin-left: 4px;
+	background: url("seltableft.png");
+}
+
+td.seltabright{
+	width: 12px;
+	background: url("seltabright.png");
+}
+
+td.menubar{
+	height: 0px;
+	background: url("menubar.png");
+	border-left: 1px none #888888;
+	border-right: 1px none #888888;
+	border-top: 1px none #888888;
+}
+
+td.menubarleft{
+	background-image: url("menubarleft.png");
+	width: 2px;
+}
+
+td.menubarright{
+	background-image: url("menubarright.png");
+	width: 2px;
+}
+
+td.menuitem{
+}
+
+td.menuitemleft{
+	width: 8px;
+}
+
+td.menuitemright{
+	background-image: url("menubardiv.png");
+	width: 10px;
+	height: 24px;
+}
+
+td.head{
+	text-indent: 4px;
+	background: #D9D9FF url(none);
+	height: 18px;
+	color: #84C1FF;
+	font-variant: small-caps;
+	font-weight: bold;
+	border: 1px solid #AAD5FF;
+	/* Kludge (yup, they're still needed) for IE table inheritance bug */
+	text-align: left;
+}
+
+td.headleft{
+	width: 0px;
+	background: url(none);
+}
+
+td.headright{
+	width: 0px;
+	background: url(none);
+}
+
+td.cell{
+	padding: 4px;
+	background: #ECECFF;
+	border: 1px solid #D9D9FF;
+	font-variant: normal;
+	color: #0099CC;
+}
+
+div.main{
+	padding: 16px;
+	background: #D5ECFD;
+	border-top: 1px none #809AA1;
+	border-right: 1px solid #809AA1;
+	border-bottom: 1px solid #809AA1;
+	border-left: 1px solid #809AA1;
+}
+
+td.posthead{
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	background-color: #D9D9FF;
+	border: 1px solid #AAD5FF;
+}
+
+td.posttext{
+	padding: 4px;
+	background: #ECECFF;
+	font-variant: normal;
+	border-top: 1px none #D9D9FF;
+	border-right: 1px solid #D9D9FF;
+	border-bottom: 1px solid #D9D9FF;
+	border-left: 1px solid #D9D9FF;
+	color: #0099CC;
+}
+
+pre.code{
+	font: 115% courier, monospace;
+	color: #F8BEE2;
+	background: #000000;
+}
+
+div.quote {
+	font-style: italic;
+	color: #7FC2D7;
+	font-size: 86%;
+	padding: 6px 6px 6px 6px;
+}
+
+div.intro{
+	padding: 8px;
+	border-top: 1px solid #AAD5FF;
+	border-bottom: 1px solid #AAD5FF;
+}
+
+/*====  EXTRA BITS  ====*/
+
+input {
+	background: #ECECFF;
+	color: #0099CC;
+	border: 1px solid #D9D9FF;
+}
+
+textarea {
+	background: #ECECFF;
+	color: #0099CC;
+	border: 1px solid #D9D9FF;
+	font: verdana;
+}
+
+select {
+	background: #ECECFF;
+	color: #0099CC;
+	border: 1px solid #D9D9FF;
+}
+
+textarea.codebox{
+	font: 115% courier, monospace;
+	color: #F8BEE2;
+	background: #000000;
+}

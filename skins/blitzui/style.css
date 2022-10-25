@@ -1,0 +1,150 @@
+body{
+	font: 8pt verdana;
+	background: #eeeeee;
+}
+img{
+	border: 0px;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+}
+a.tab{
+	color: #ffffff;
+}
+a.seltab{
+	color: #ffffff;
+}
+a.menuitem{
+	
+}
+a:hover{
+	text-decoration: underline;
+}
+a.tab:hover
+	color: #ffffff;
+}
+a.menuitem:hover{
+}
+td{
+	font: 8pt verdana;
+}
+h1{
+	font: bold 8pt verdana;
+}
+h3{
+	font: bold 8pt verdana;
+}
+font.tiny{
+	font: 7pt verdana;
+}
+
+td.tab{
+	height: 17px;
+	background: url("tab.png");
+	background-repeat: repeat-x;
+}
+td.tableft{
+	width: 8px;
+	background: url("tableft.png");
+	background-repeat: no-repeat;
+}
+td.tabright{
+	width: 8px;
+	background: url("tabright.png");
+	background-repeat: no-repeat;
+}
+
+td.seltab{
+	height: 17px;
+	background: url("seltab.png");
+	background-repeat: repeat-x;
+}
+td.seltableft{
+	width: 8px;
+	margin-left: 4px;
+	background: url("seltableft.png");
+	background-repeat: no-repeat;
+}
+td.seltabright{
+	width: 8px;
+	background: url("seltabright.png");
+	background-repeat: no-repeat;
+}
+
+td.menubar{
+	height: 18px;
+	background: url("menubar.png");
+	border-left: solid 1px #000000;
+	border-right: solid 1px #000000;
+	border-top: solid 0px #000000;
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+
+td.menuitem{
+}
+td.menuitemleft{
+	width: 8px;
+}
+td.menuitemright{
+}
+
+td.head{
+	height: 20px;
+	text-indent: 4px;
+	background: #284664 url("hefad.png");
+	border-bottom: solid 1px #000000;
+	color: #ffffff
+}
+td.headleft{
+	width: 8px;
+	background: #000000 url("headleft.jpg");
+}
+td.headright{
+	width: 8px;
+	background: #000000 url("headright.jpg");
+}
+
+td.cell{
+	padding: 4px;
+	background: #eeeeee;
+	border-bottom: dashed 1px #bbbbbb;
+}
+div.main{
+	padding: 16px;
+	background: #eeeeee url("mainbackground.png");
+	background-repeat: repeat-x;
+	font: 10pt verdana;
+	border: solid 1px #000000;
+}
+td.posthead{
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	background: #284664;
+	color: #ffffff;
+}
+td.posttext{
+	padding: 4px;
+	background: #8CAAC8 url("menubar.jpg");
+	background-repeat: repeat-x;
+	border: solid 1px #000000;
+}
+pre.code{
+	font: 8pt courier;
+	color: #00ff00;
+	background: #000000;
+}
+div.quote{
+	padding: 8px;
+	font-style: italic;
+}
+textarea.codebox{
+	font: 8pt courier;
+	color: #00ff00;
+	background: #000000;
+}

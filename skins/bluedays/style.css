@@ -1,0 +1,246 @@
+body{
+	font: small verdana;
+	background: #91AEC8 url("background.png");
+	color: #D8E3EC;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	color: #000085;
+	text-decoration: none;
+}
+
+a.tab{
+	font: 10pt Verdana;
+	color: #ffffff;
+}
+
+a.menuitem{
+	font: 10pt Verdana;
+}
+
+a.seltab{
+	font: 10pt Verdana;
+	color: #000085;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.tab:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+a.menuitem:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+a.seltab:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+td{
+	font: small verdana;
+	color: #013D74;
+}
+
+h1{
+	font: bold medium verdana;
+	color: #ffffff;
+}
+
+h3{
+	font: bold small verdana;
+	color: #ffffff;
+}
+
+font.tiny{
+	font: xx-small verdana;
+}
+
+td.tab{
+	height: 22px;
+	background: url("tab.png");
+	text-align: center;
+}
+
+td.tableft{
+	width: 10px;
+	background: url("tableft.png");
+}
+
+td.tabright{
+	width: 10px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 22px;
+	background: url("seltab.png");
+	text-align: center;
+}
+
+td.seltableft{
+	width: 10px;
+	background: url("seltableft.png");
+}
+
+td.seltabright{
+	width: 10px;
+	background: url("seltabright.png");
+}
+
+td.menubar{
+	height: 33px;
+	background: url("menubar.png");
+}
+
+td.menubarleft{
+	background-image: url("menubarleft.png");
+	width: 10px;
+}
+
+td.menubarright{
+	background-image: url("menubarright.png");
+	width: 10px;
+}
+
+td.menuitem{
+	padding-bottom: 4px;
+}
+
+td.menuitemleft{
+	width: 8px;
+}
+
+td.menuitemright{
+	background-image: url("menubardiv.png");
+	width: 10px;
+	height: 33px;
+}
+
+td.head{
+	text-indent: 4px;
+	padding-bottom: 4px;
+	background: #9AB4CD url(cellheadbackground.png) repeat-x;
+	border-left: 1px solid #366690;
+	border-right: 1px solid #366690;
+	height: 28px;
+	/* Kludge (yup, they're still needed) for IE table inheritance bug */
+	text-align: left;
+}
+
+td.headleft{
+}
+
+td.headright{
+}
+
+td.cell{
+	padding: 4px;
+	background-color: #9AB4CD;/*#396EA0;*/
+	border-bottom: 1px solid #366690;
+	border-left: 1px solid #366690;
+	border-right: 1px solid #366690;
+}
+
+div.main{
+	padding: 16px;
+	border-bottom: 1px solid #013D74;
+	border-left: 1px solid #013D74;
+	border-right: 1px solid #013D74;
+	background: #3470AD url(mainbackground.png);
+}
+
+td.posthead{
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	border-left: 1px solid #013D74;
+	border-right: 1px solid #013D74;
+	border-top: 1px solid #013D74;
+	background: url(postheadbackground.png);
+}
+
+td.posttext{
+	padding: 4px;
+	padding-top: 8px;
+	border-left: 1px solid #013D74;
+	border-right: 1px solid #013D74;
+	border-bottom: 1px solid #013D74;
+	color: #013D74;
+	background: #C1D4E4 url(postbackground.png) repeat-x top;
+}
+
+pre.code{
+	font: bold 115% Courier, monospace;
+	color: #00CED1; /*#D8E3EC;*/
+	background: #225588; /*#2C5C8F;*/
+	padding: 6px;
+	margin: 6px;
+	border: 1px solid #013D74;
+}
+
+div.quote{
+	font-style: italic;
+	color: #466E95;
+	font-size: 90%;
+	padding: 6px;
+	margin: 6px;
+	background-color: #B4C8DA; /*#9AB4CD;*/
+	border: 1px dashed #4F7AA4;
+}
+
+div.intro{
+	padding: 8px;
+	border-top: 1px dashed #013D74;
+	border-bottom: 1px dashed #013D74;
+	color: #D8E3EC;
+}
+
+/*====  EXTRA BITS  ====*/
+/* Would be nice if there were classes for buttons, inputs and text areas etc...COUGH...*/
+
+input{
+	background: #C1D4E4;
+	color: #013D74;
+	border: 1px solid #013D74;
+}
+
+textarea{
+	background: #C1D4E4;
+	color: #013D74;
+	border: 1px solid #013D74;
+	font: Verdana;
+}
+
+select{
+	background: #C1D4E4;
+	color: #013D74;
+	border: 1px solid #013D74;
+}
+
+body {
+	scrollbar-highlight-color: #9BB6CE;
+	scrollbar-track-color: #6084A6;
+	scrollbar-base-color: #9BB6CE;
+	scrollbar-shadow-color: #9BB6CE;
+	scrollbar-face-color: #9BB6CE;
+	scrollbar-arrow-color: #ffffff;
+	scrollbar-darkshadow-color: #4B6B89;
+	scrollbar-3dlight-color: #C1D4E4;
+}
+
+textarea.codebox{
+	font: bold 115% Courier, monospace;
+	color: #00CED1; /*#D8E3EC;*/
+	background: #225588; /*#2C5C8F;*/
+}

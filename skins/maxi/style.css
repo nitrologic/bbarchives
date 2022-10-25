@@ -1,0 +1,153 @@
+body{
+	font: x-small verdana;
+	background: url("background.png");
+}
+img{
+	border: 0px;
+}
+a{
+	color: #000088;
+	text-decoration: none;
+}
+a.tab{
+}
+a.menuitem{
+}
+a:hover{
+	text-decoration: underline;
+}
+a.tab:hover
+	color: #ccffff;
+}
+a.menuitem:hover{
+}
+td{
+	font: x-small verdana;
+}
+h1{
+	font: bold x-small verdana;
+}
+h3{
+	font: bold x-small verdana;
+}
+font.tiny{
+	font: xx-small verdana;
+}
+
+td.tab{
+	height: 17px;
+	background: url("tab.png");
+	text-align: center;
+}
+td.tableft{
+	width: 8px;
+	background: url("tableft.png");
+}
+td.tabright{
+	width: 8px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 17px;
+	background: url("seltab.png");
+	text-align: center;
+}
+td.seltableft{
+	width: 8px;
+	background: url("seltableft.png");
+}
+td.seltabright{
+	width: 8px;
+	background: url("seltabright.png");
+}
+
+td.menubar{
+	height: 18px;
+	background: #eeeeee;
+	border-left: solid 1px #888888;
+	border-right: solid 1px #888888;
+	border-top: solid 1px #888888;
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+
+td.menuitem{
+}
+td.menuitemleft{
+	width: 8px;
+}
+td.menuitemright{
+}
+
+td.head{
+	height: 18px;
+	text-indent: 4px;
+	background: url(head.png);
+}
+td.headleft{
+	width: 1px;
+	background: url("headleft.png");
+}
+td.headright{
+	width: 1px;
+	background: url("headright.png");
+}
+
+td.cell{
+	padding: 4px;
+	background: #eeeeee;
+	border: solid 1px #ffffff;
+}
+div.main{
+	padding: 16px;
+	background: #ffffff;
+	border: solid 1px #888888;
+}
+td.posthead{
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+td.posttext{
+	padding: 4px;
+	background: #eeeeee;
+	border: solid 1px #888888;
+}
+pre.code{
+	font: 115% courier, monospace;
+	padding: 8px;
+	color: #00ff00;
+	background: #000000;
+}
+div.quote{
+	padding: 8px;
+	color: #0000ff;
+	background: #cccccc;	
+}
+div.intro{
+	padding: 8px;
+	border-top: solid 1px #888888;
+	border-bottom: solid 1px #888888;
+}
+input{
+	font: 12px verdana;
+}
+select{
+	font: 12px verdana;
+}
+submit{
+	font: 12px verdana;
+}
+textarea{
+	font: 12px verdana;
+}
+textarea.codebox{
+	overflow:auto;
+	font: 115% courier, monospace;
+	color: #00ff00;
+	background: #000000;
+}

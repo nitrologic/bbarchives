@@ -1,0 +1,239 @@
+/*[fmt]1A90-1A0A-3*/
+body {
+	font: small Helvetica, Arial, sans-serif;
+	padding: 10px;
+	background-color: #192129;
+}
+body>table a {
+	color: #F6A525;
+}
+body>table a:hover {
+	text-decoration: underline;
+	color: #F6A525;
+}
+body>table a:active {
+	color: #F6A525;
+}
+body>table:nth-child(3) {
+	background-image: url(tab.png);
+	padding-right: 16px;
+}
+#accountcell {
+	background-image: url(tab.png);
+	padding-right: 16px;
+}
+#accountcell a {
+	color: #F6A525;
+}
+font.tiny {
+	font: xx-small verdana;
+}
+h1 {
+	font: normal x-large Arial, sans-serif;
+	letter-spacing: -0.8pt;
+	color: #414141;
+}
+h3 {
+	font: bold medium Arial, sans-serif;
+}
+a {
+	color: #164B9B;
+	text-decoration: none;
+	font-weight: normal;
+}
+a:hover {
+	text-decoration: underline;
+	color: #216CDD;
+}
+a:active {
+	font-weight: normal;
+	text-decoration: none;
+	color: #164B9B;
+}
+td {
+	font: small Arial, sans-serif;
+}
+img {
+	border: 0px solid #000000;
+}
+div.intro {
+	padding: 8px;
+	border-top: 1px dotted #888888;
+	border-bottom: 1px dotted #888888;
+}
+div.main {
+	padding: 16px;
+	background: #EFEFF0;
+	-webkit-border-radius: 0px 0px 6px 6px;
+	-moz-border-radius: 0px 0px 6px 6px;
+	border-right: 1px solid #9E9E9E;
+	border-bottom: 1px solid #9E9E9E;
+	border-left: 1px solid #9E9E9E;
+	border-top: 1px solid #9E9E9E;
+}
+/*Tabs*/
+a.tab {
+	color: #FFFFFF;
+	font-weight: normal;
+	text-shadow: #000000 0px -1px 0px;
+}
+td.tab {
+	height: 34px;
+	text-align: center;
+	background-image: url(tab.png);
+	max-width: 28px;
+}
+td.tableft {
+	max-width: 0;
+}
+td.tabright {
+	background-image: url(tabright.png);
+	max-width: 8px;
+	width: 8px;
+}
+td.seltab {
+	height: 34px;
+	text-align: center;
+	background-image: url(seltab.png);
+	max-width: 28px;
+}
+td.seltableft {
+	width: 0px;
+}
+td.seltabright {
+	width: 8px;
+	background-image: url(tabright.png);
+}
+td.tab a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+td.tab a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+td.tab a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+td.tab a:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+td.seltab a:link {
+	color: #F6A525;
+	text-decoration: none;
+	font-weight: normal;
+	text-shadow: #000000 0px -1px 0px;
+}
+td.seltab a:visited {
+	color: #F6A525;
+	text-decoration: none;
+	font-weight: normal;
+}
+td.seltab a:hover {
+	color: #F6A525;
+	text-decoration: none;
+	font-weight: normal;
+}
+td.seltab a:active {
+	color: #F6A525;
+	text-decoration: none;
+	font-weight: normal;
+}
+/*Menu*/
+a.menuitem {
+	color: #F6A525;
+	font-size: x-small;
+}
+td.menubar {
+	height: 20px;
+	background-image: url(menubg.png);
+}
+td.menubarleft {
+}
+td.menubarright {
+}
+td.menuitem {
+}
+td.menuitemleft {
+	width: 8px;
+}
+td.menuitemright {
+	width: 8px;
+}
+/*Grid Items*/
+td.head {
+	height: 28px;
+	text-indent: 4px;
+	background: #FEFEFE url(head.png);
+	text-shadow: #ffef60 1px 1px 0px;
+	/*[disabled]text-shadow:#000000 0px 1px 1px;*/
+	color: #8C7E0C;
+	/*[disabled]color:#FEFEFE;*/
+}
+td.headleft {
+	width: 1px;
+	background: #E4E4E6 url(headleft.png);
+}
+td.headright {
+	width: 1px;
+	background: #E4E4E6 url(headright.png);
+}
+td.cell {
+	padding: 4px;
+	background: #FFFFFF;
+	border-left: 1px solid #E4E4E6;
+	border-right: 1px solid #E4E4E6;
+	border-bottom: 1px solid #E4E4E6;
+}
+/*Posts*/
+td.posthead {
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	-webkit-border-radius: 6px 6px 0px 0px;
+	-moz-border-radius: 6px 6px 0px 0px;
+	padding-bottom: 4px;
+	background-color: #A6AAB4;
+	border-left: 1px solid #B4B4BE;
+	border-top: 1px solid #B4B4BE;
+	border-right: 1px solid #B4B4BE;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #B4B4BE;
+	background-image: url(postheadbg.png);
+	text-shadow: #e4e4e4 0px 1px 1px;
+}
+td.posttext {
+	padding: 4px;
+	background: #FFFFFF url(posttextbg.png) repeat-x;
+	-webkit-border-radius: 0px 0 6px 6px;
+	-moz-border-radius: 0px 0px 6px 6px;
+	border-left: 1px solid #B4B4BE;
+	border-bottom: 1px solid #B4B4BE;
+	border-right: 1px solid #B4B4BE;
+	border-top: 1px solid #7A7A7A;
+}
+pre.code a {
+	color: #5394F7;
+}
+pre.code {
+	font: small Courier;
+	padding: 8px;
+	color: #55CC41;
+	background: #2D2D2D;
+	border: 1px solid #2D2D2D;
+}
+textarea.codebox {
+	font: small courier;
+	color: #55CC41;
+	background-color: #2C2C2C;
+	border: 1px solid #2D2D2D;
+}
+div.quote {
+	font-style: italic;
+	padding: 8px;
+	background: #E5E5E5 url(quote.png) no-repeat right top;
+	color: #747474;
+	border: 1px dashed #B4B4BE;
+}

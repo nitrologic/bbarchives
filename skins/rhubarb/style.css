@@ -1,0 +1,224 @@
+body{
+	background: #8491D7 url("bachground.png");
+	font-variant: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	color: #000088;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+}
+
+a.tab{
+	font-weight: normal;
+	color: #AAAAFF;
+	font-variant: small-caps;
+}
+
+a.menuitem{
+	color: #AAAAFF;
+	font-variant: small-caps;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.tab:hover{
+	color: #ccffff;
+	text-decoration: none;
+}
+
+a.menuitem:hover{
+	color: #ccffff;
+	text-decoration: none;
+}
+
+a.seltab:hover{
+	color: #ccffff;
+	text-decoration: none;
+}
+
+td{
+	font: small-caps normal small verdana;
+	color: #000000;
+}
+
+h1{
+	font: bold medium verdana;
+}
+
+h3{
+	font: bold small verdana;
+}
+
+font.tiny{
+	font: normal xx-small verdana;
+}
+
+td.tab{
+	height: 16px;
+	background: url("tab.png");
+	font-variant: normal;
+	font-weight: normal;
+}
+
+td.tableft{
+	width: 8px;
+	background: url("tableft.png");
+}
+
+td.tabright{
+	width: 8px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 16px;
+	background: url("seltab.png");
+}
+
+td.seltableft{
+	width: 8px;
+	margin-left: 4px;
+	background: url("seltableft.png");
+}
+
+td.seltabright{
+	width: 8px;
+	background: url("seltabright.png");
+}
+
+td.menubar{
+	height: 0px;
+	background: url(menubar.png);
+	border-left: 1px none #888888;
+	border-right: 1px none #888888;
+	border-top: 1px none #888888;
+}
+
+td.menubarleft{
+	background-image: url("menubarleft.png");
+	width: 2px;
+}
+
+td.menubarright{
+	background-image: url("menubarright.png");
+	width: 2px;
+}
+
+td.menuitem{
+}
+
+td.menuitemleft{
+	width: 8px;
+}
+
+td.menuitemright{
+	background-image: url("menubardiv.png");
+	width: 10px;
+	height: 24px;
+}
+
+td.head{
+	text-indent: 4px;
+	background: url("head.png");
+	height: 22px;
+	color: #9999FF;
+	font-variant: small-caps;
+	/* Kludge (yup, they're still needed) for IE table inheritance bug */
+	text-align: left;
+}
+
+td.headleft{
+	width: 2px;
+	background: url("headleft.png");
+}
+
+td.headright{
+	width: 2px;
+	background: url("headright.png");
+}
+
+td.cell{
+	padding: 4px;
+	background: #CCCCFF;
+	border: 1px solid #D9D9FF;
+	font-variant: normal;
+}
+
+div.main{
+	padding: 16px;
+	background: #8A70CF;
+	font: 10pt verdana;
+	border: 1px solid #3C0064;
+}
+
+td.posthead{
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+
+td.posttext{
+	padding: 4px;
+	background: #CCCCFF;
+	border: 1px solid #330066;
+	font-variant: normal;
+}
+
+pre.code{
+	font: 115% courier, monospace;
+	color: #CCCCFF;
+	background: #3A176F;
+	border: 1px solid #330066;
+}
+
+div.quote {
+	font-style: italic;
+	color: #6374CF;
+	font-size: 86%;
+	padding: 6px 6px 6px 6px;
+}
+
+div.intro{
+	padding: 8px;
+	border-top: 1px dashed #3C0064;
+	border-bottom: 1px dashed #3C0064;
+}
+
+/*====  EXTRA BITS  ====*/
+
+input {
+	background: #CCCCFF;
+	color: #000000;
+	border: 1px solid #330066;
+}
+
+textarea {
+	background: #CCCCFF;
+	color: #000000;
+	border: 1px solid #330066;
+	font: verdana;
+}
+
+select {
+	background: #CCCCFF;
+	color: #000000;
+	border: 1px solid #330066;
+}
+
+textarea.codebox{
+	font: 115% courier, monospace;
+	color: #CCCCFF;
+	background: #3A176F;
+}

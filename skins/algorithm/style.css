@@ -1,0 +1,140 @@
+body{
+	font: small arial;
+	background: #666666 url("background.png");
+	padding: 0px 16px;
+	color: #ffffff;
+}
+img{
+	border: 0px;
+}
+a{
+	color: #ffff00;
+	text-decoration: none;
+}
+a.tab{
+	color: #ffffff;
+}
+a.menuitem{
+}
+a:hover{
+	text-decoration: underline;
+}
+a.tab:hover
+	color: #ccffff;
+}
+a.menuitem:hover{
+}
+td{
+	color: #ffffff;
+	font: small arial;
+}
+h1{
+	color: #ffffff;
+	font: bold small arial;
+}
+h3{
+	color: #ffffff;
+	font: small arial;
+}
+font.tiny{
+	color: #ffffff;
+	font: x-small arial;
+}
+
+td.tab{
+	font: bold;
+	text-align: center;
+	height:18 px;
+	background: url("tab.png");
+}
+td.tableft{
+	width:10 px;
+	background: url("tableft.png");
+}
+td.tabright{
+	width:10 px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	text-align: center;
+	font: bold;
+	height:18 px;
+	background: url("seltab.png");
+}
+td.seltableft{
+	width:10 px;
+	background: url("seltableft.png");
+}
+td.seltabright{
+	width:10 px;
+	background: url("seltabright.png");
+}
+
+td.menubar{	
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+
+td.menuitem{
+}
+td.menuitemleft{
+}
+td.menuitemright{
+	width: 16px;	
+}
+
+td.head{
+	height: 18px;
+	background: url(head.png);
+	color: #ffffff;
+	font: bold;
+}
+td.headleft{
+	width: 10px;
+	background: url("headleft.png");
+}
+td.headright{
+	width: 10px;
+	background: url("headright.png");
+}
+
+td.cell{
+	color: #ffffff;
+	padding: 4px;
+	background: #373737;
+	border-left: solid 1px #666666;
+	border-top: solid 1px #666666;
+}
+div.main{
+	background: #666666;
+	padding: 16px;	
+	border: solid 1px #999999;
+}
+td.posthead{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+td.posttext{
+	padding: 4px;
+	background: #373737;
+	border: solid 1px #999999;
+}
+pre.code{
+	font: small courier;
+	color: #00ff00;
+	background: #000000;
+}
+div.quote{
+	font: italic;
+	color: #cccccc;
+	background: #444444;
+}
+textarea.codebox{
+	overflow:auto;
+	font: small courier;
+	color: #00ff00;
+	background: #000000;
+}

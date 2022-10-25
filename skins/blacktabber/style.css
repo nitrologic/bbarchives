@@ -1,0 +1,110 @@
+BODY {
+	COLOR: #FFCC00; BACKGROUND: url(background.jpg) #000000 no-repeat right top; FONT: 8pt Verdana; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+A {
+	COLOR: #ffff00; WHITE-SPACE: nowrap; TEXT-DECORATION: none
+}
+A.tab {
+	FONT-WEIGHT: bold; FONT-FAMILY: Verdana
+}
+A.seltab {
+	FONT-WEIGHT: bold; COLOR: #cc0000; FONT-FAMILY: Verdana
+}
+A.menuitem {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.tab:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.seltab:hover {
+	CURSOR: default; TEXT-DECORATION: none
+}
+A.menuitem:hover {
+	COLOR: #ffcc66; TEXT-DECORATION: none
+}
+TD {
+	FONT: 8pt verdana; COLOR: #ffcc00
+}
+H1 {
+	FONT: bold 10pt Verdana;
+}
+H3 {
+	FONT: bold 8pt verdana
+}
+FONT.tiny {
+	FONT: 7pt verdana
+}
+TD.tab {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(tab.png); VERTICAL-ALIGN: bottom; BACKGROUND-REPEAT: repeat-x; HEIGHT: 19px; TEXT-ALIGN: center
+}
+TD.tableft {
+	
+}
+TD.tabright {
+	BACKGROUND-IMAGE: url(tabright.png); WIDTH: 8px
+}
+TD.seltab {
+	PADDING-RIGHT: 4px; BACKGROUND-POSITION: 50% top; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(seltab.png); VERTICAL-ALIGN: bottom; COLOR: #ffffff; BACKGROUND-REPEAT: repeat-x; HEIGHT: 19px; TEXT-ALIGN: center
+}
+TD.seltableft {
+	
+}
+TD.seltabright {
+	BACKGROUND-IMAGE: url(seltabright.png); WIDTH: 8px
+}
+TD.menubar {
+	BACKGROUND-IMAGE: url(menubar.png); HEIGHT: 23px; BACKGROUND-COLOR: #660000
+}
+TD.menubarleft {
+	
+}
+TD.menubarright {
+	
+}
+TD.menuitem {
+	
+}
+TD.menuitemleft {
+	WIDTH: 5px
+}
+TD.menuitemright {
+	BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(menuitemright.png); WIDTH: 10px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 23px
+}
+TD.head {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-INDENT: 4px; BORDER-BOTTOM: #ffcc00 1px dashed; HEIGHT: 18px
+}
+TD.headleft {
+	WIDTH: 0px
+}
+TD.headright {
+	WIDTH: 0px
+}
+TD.cell {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BACKGROUND: url(cell.gif) #4a4a4a repeat-y left 50%; PADDING-BOTTOM: 4px; COLOR: #ffffff; PADDING-TOP: 4px; BORDER-BOTTOM: #000000 2px solid
+}
+DIV.main {
+	PADDING-RIGHT: 16px; PADDING-LEFT: 16px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #666666 1px solid
+}
+TD.posthead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 8px; BORDER-BOTTOM: #ffcc00 1px dashed
+}
+TD.posttext {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BACKGROUND: #4a4a4a; PADDING-BOTTOM: 4px; COLOR: #ffffff; PADDING-TOP: 4px
+}
+PRE.code {
+	BACKGROUND: #000000; FONT: 8pt courier; COLOR: #00ff00
+}
+div.quote{
+	padding: 8px;
+	font-style: italic;
+}
+textarea.codebox{
+	overflow:auto;
+	BACKGROUND: #000000; FONT: 8pt courier; COLOR: #00ff00
+}

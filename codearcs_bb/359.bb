@@ -1,0 +1,161 @@
+; ID: 359
+; Author: EviLToYLeT
+; Date: 2002-07-02 00:47:46
+; Title: Revised Key Codes
+; Description: Fixed a few errors in scancodes by Defiance
+
+;=========================================
+;||||keycodes.bb - Scancode constants.||||
+;=========================================
+;Scancodes for use in your Blitz3D Program
+;programmed by Brian Chang || July 01 2002
+;-----------------------------------------
+
+;the key_* extension is for keys on the
+;main keyboard. the keypad_* extension 
+;is for the keys on the numeric pad
+
+Const key_esc=				1
+Const key_1=				2
+Const key_2=				3
+Const key_3=				4
+Const key_4=				5
+Const key_5=				6
+Const key_6=				7
+Const key_7=				8
+Const key_8=				9
+Const key_9=				10
+Const key_0=				11
+Const key_minus=			12
+Const key_equals=			13
+Const key_backspace=		14
+Const key_tab=				15
+Const key_Q=				16
+Const key_W=				17
+Const key_E=				18
+Const key_R=				19
+Const key_T=				20
+Const key_Y=				21
+Const key_U=				22
+Const key_I=				23
+Const key_O=				24
+Const key_P=				25
+Const key_leftbracket=		26
+Const key_rightbracket=		27
+Const key_enter=			28
+Const key_leftctrl=			29
+Const key_A=				30
+Const key_S=				31
+Const key_D=				32
+Const key_F=				33
+Const key_G=				34
+Const key_H=				35
+Const key_J=				36
+Const key_K=				37
+Const key_L=				38
+Const key_semicolon=		39
+Const key_apostrophe=		40
+Const key_grave=			41
+Const key_leftshift=		42
+Const key_backslash=		43
+Const key_Z=				44
+Const key_X=				45
+Const key_C=				46
+Const key_V=				47
+Const key_B=				48
+Const key_N=				49
+Const key_M=				50
+Const key_comma=			51
+Const key_period=			52
+Const key_slash=			53
+Const key_rightshift=		54
+Const keypad_multiply=		55
+Const key_leftalt=			56
+Const key_space=			57
+Const key_capslock=			58
+Const key_F1=				59
+Const key_F2=				60
+Const key_F3=				61
+Const key_F4=				62
+Const key_F5=				63
+Const key_F6=				64
+Const key_F7=				65
+Const key_F8=				66
+Const key_F9=				67
+Const key_F10=				68
+Const key_pause=			69
+Const key_scrolllock=		70
+Const keypad_7=				71
+Const keypad_8=				72
+Const keypad_9=				73
+Const keypad_subtract=		74
+Const keypad_4=				75
+Const keypad_5=				76
+Const keypad_6=				77
+Const keypad_plus=			78
+Const keypad_1=				79
+Const keypad_2=				80
+Const keypad_3=				81
+Const keypad_0=				82
+Const keypad_decimal=		83
+Const key_OEM_102=			86
+Const key_F11=				87
+Const key_F12=				88
+Const key_F13=				100
+Const key_F14=				101
+Const key_F15=				102
+Const key_kana=				112
+Const key_ABNT_C1=			115
+Const key_convert=			121
+Const key_noconvert=		123
+Const key_yen=				125
+Const keypad_ABNT_C2=		126
+Const keypad_equals=		141
+Const key_prevtrack=		144
+Const key_AT=				145
+Const key_colon=			146
+Const key_underline=		147
+Const key_kanji=			148
+Const key_stop=				149
+Const key_AX=				150
+Const key_unlabeled=		151
+Const key_nexttrack=		153
+Const keypad_enter=			156
+Const key_rightctrl=		157
+Const key_mute=				160
+Const key_calculuator=		161
+Const key_playpause=		162
+Const key_mediastop=		164
+Const key_volumedown=		174
+Const key_volumeup=			176
+Const key_webhome=			178
+Const keypad_comma=			179
+Const keypad_divide=		181
+Const key_sysreq=			183
+Const key_rightalt=			184
+Const key_numlock=			197
+Const key_home=				199
+Const key_up=				200
+Const key_pageup=			201
+Const key_left=				203
+Const key_right=			205
+Const key_end=				207
+Const key_down=				208
+Const key_pagedown=			209
+Const key_insert=			210
+Const key_delete=			211
+Const key_leftwindows=		219
+Const key_rightwindows=		220
+Const key_apps=				221
+Const key_power=			222
+Const key_sleep=			223
+Const key_wake=				227
+Const key_wsearch=			229
+Const key_wfavorites=		230
+Const key_wrefresh=			231
+Const key_wstop=			232
+Const key_wfoward=			233
+Const key_wback=			234
+Const key_mycomputer=		235
+Const key_mail=				236
+Const key_mediaselect=		237

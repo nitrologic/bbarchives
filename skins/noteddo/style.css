@@ -1,0 +1,234 @@
+/* basic */
+
+body{
+    font: 8pt "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background: #ffffff url("background.png") repeat-x scroll top;
+	padding: 0;
+	margin: 0;
+	color: black;
+}
+
+img{
+	border: 0px;
+}
+
+div.main {
+    background: white;
+	padding: 10px 30px;
+}
+
+/* anchors */
+
+a {
+    color: #880000;
+}
+
+div.main * a, div.main a{
+	color: #880000;
+	text-decoration: underline;
+}
+
+a.tab, a.seltab, a.menuitem { text-decoration: none; }
+a.tab, a.seltab{
+    color: #880000;
+    text-align: center;
+    font-weight: bold;
+}
+
+a.menuitem{
+    color: #880000;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.tab:hover, a.seltab:hover {
+	text-decoration: none;
+	color: #EE0000;
+}
+
+/* general formatting */
+
+body > table {color: #EEEEFF;}
+
+h1{
+ 	font: bold small verdana;
+}
+h3{
+ 	font: bold x-small verdana;
+}
+font.tiny{
+ 	font: xx-small verdana;
+}
+
+/* tabs */
+
+td.tab, td.seltab { font-size: 1.2em; }
+
+td.tab{
+	height: 40px;
+	background: url("tabun-mid.png");
+	text-align: center;
+}
+
+td.tableft{
+	width: 12px;
+	background: url("tabun-left.png");
+}
+
+td.tabright{
+	width: 12px;
+	background: url("tabun-right.png");
+}
+
+td.seltab{
+	height: 40px;
+	background: url("tabsel-mid.png");
+	text-align: center;
+}
+
+td.seltableft{
+	width: 12px;
+	background: url("tabsel-left.png");
+}
+
+td.seltabright{
+	width: 12px;
+	background: url("tabsel-right.png");
+}
+
+tr:hover > td.tab {background: url("tabhi-mid.png");}
+tr:hover > td.tableft {background: url("tabhi-left.png");}
+tr:hover > td.tabright {background: url("tabhi-right.png");}
+
+/* menu bar */
+
+td.menubar{
+	height: 24px;
+	background: white url("menubar.png") repeat-x scroll top;
+}
+td.menubarleft{
+    height: 24px;
+    width: 24px;
+    background: white url("menubar-left.png") repeat-x scroll top;
+}
+td.menubarright{
+    height: 24px;
+    width: 24px;
+    background: white url("menubar-right.png") repeat-x scroll top;
+}
+
+td.menuitem{
+    height: 24px;
+}
+td.menuitemleft{
+	width: 17px;
+	background: url("menuitem.png") no-repeat scroll top left;
+}
+td.menuitemright{
+    width: 25px;
+}
+
+/* header */
+
+td.head{
+	height: 30px;
+	background: white;
+	background: white url("head-mid.png") repeat-x scroll top;
+	font-weight: bold;
+	text-align: center;
+	color: #333333;
+}
+td.headleft{
+	width: 13px;
+	background: white url("head-left.png") no-repeat scroll top left;
+}
+td.headright{
+	width: 13px;
+	background: white url("head-right.png") no-repeat scroll top right;
+}
+
+/* posts */
+
+td.posthead{
+    background: url("head-mid.png") repeat-x scroll top;
+    height: 30px;
+    border-left: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	border-top: 1px solid #aaaaaa;
+}
+
+/* post head hack */
+td.posthead table { height: 30px; }
+td.posthead table td * { font-weight: bold; }
+td.posthead table td:first-child {
+    background: url("head-left.png") no-repeat scroll top left;
+    padding-left: 26px;
+}
+
+td.posthead table td+td {
+    background: url("head-right.png") no-repeat scroll top right;
+    padding-right: 26px;
+}
+
+
+td.posttext{
+	padding: 10px 10px 12px 10px;
+	background: white url("shadow.png") repeat-x scroll bottom;
+	border-left: 1px solid #aaaaaa;
+	border-right: 1px solid #aaaaaa;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+pre.code{
+	padding: 8px;
+	background: url("shadow.png") repeat-x scroll bottom;
+}
+
+textarea.codebox, pre.code{
+    background-color: #242424;
+	font-family: Consolas, "Courier New", Courier, monospace;
+	color: #fa7572;
+}
+
+div.quote{
+	font-style: italic;
+	padding: 8px;
+	background: #eceeef url("quote.png") no-repeat scroll  right;
+	border: solid 1px #888888;
+}
+
+div.intro{
+	padding: 10px 10px 12px 10px;
+	background: white url("shadow.png") repeat-x scroll bottom;
+	border: 1px solid #aaaaaa;
+}
+
+.cell {
+    height: 24px;
+}
+
+.cell:first-child
+{
+    font-weight: bold;
+    padding-left: 17px;
+    margin-left: 20px;
+    background: white url("cellpad.png") no-repeat scroll left;
+}
+
+td.cell{
+	/* padding: 4px;
+	background: #eeeeee;
+	border: solid 1px #ffffff; */
+}
+
+td.cell + td.cell
+{
+    border-left: 3px solid #EEEEEE;
+    padding-left: 8px;
+}
+
+input {
+    font-size: 1.2em;
+}

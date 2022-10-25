@@ -1,0 +1,160 @@
+body{
+font: x-small verdana;
+color: #92278F;
+background: url("background.png");
+}
+img{
+border: 0px;
+}
+a{
+color: #92278F;
+text-decoration: none;
+}
+a.tab{
+font-family: arial, verdana, helvetica, sans-serif; 
+font-size: 10pt;
+color: #92278F;
+font-weight: 900;
+text-decoration: none;
+}
+a.menuitem{
+font-size: 8pt;
+color: #92278F;
+font-weight: 900;
+text-decoration: none;
+margin-top: 0px;
+margin-bottom: 0px;
+margin-left: 5px;
+margin-right: 5px;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 5px;
+padding-right: 5px;
+}
+a:hover{
+text-decoration: underline;
+}
+a.tab:hover
+color: #92278F;
+}
+a.menuitem:hover{
+}
+td{
+font: x-small verdana;
+}
+h1{
+font: bold small verdana;
+}
+h3{
+font: bold x-small verdana;
+}
+font.tiny{
+font: xx-small verdana;
+color: #92278F;
+}
+
+td.tab{
+height: 25px;
+background: url("tab.png");
+text-align: center;
+}
+td.tableft{
+width: 8px;
+background: url("tableft.png");
+}
+td.tabright{
+width: 8px;
+background: url("tabright.png");
+}
+
+td.seltab{
+height: 25px;
+background: url("seltab.png");
+text-align: center;
+}
+td.seltableft{
+width: 8px;
+background: url("seltableft.png");
+}
+td.seltabright{
+width: 8px;
+background: url("seltabright.png");
+}
+
+td.menubar{
+height: 18px;
+background: url("menu.png");
+border-left: solid 0px #888888;
+border-right: solid 0px #888888;
+border-top: solid 0px #888888;
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+
+td.menuitem{
+}
+td.menuitemleft{
+}
+td.menuitemright{
+}
+
+td.head{
+height: 18px;
+text-indent: 4px;
+background: url(head.png);
+}
+td.headleft{
+width: 8px;
+background: url("headleft.png");
+}
+td.headright{
+width: 8px;
+background: url("headright.png");
+}
+
+td.cell{
+padding: 4px;
+background: #E2E4FC;
+border: solid 1px #ffffff;
+}
+div.main{
+padding: 16px;
+background: #ffffff;
+font: x-small verdana;
+border: solid 0px #888888;
+}
+td.posthead{
+padding-top: 8px;
+padding-left: 4px;
+padding-right: 4px;
+padding-bottom: 4px;
+}
+td.posttext{
+padding: 4px;
+background: #E2E4FC;
+border: solid 0px #888888;
+}
+pre.code{
+font: 70% courier;
+padding: 8px;
+color: #00ff00;
+background: #000000;
+}
+div.quote{
+font-style: italic;
+padding: 0px;
+background: #ffffff;
+border: solid 0px #888888;
+}
+div.intro{
+padding: 8px;
+border-top: solid 0px #888888;
+border-bottom: solid 0px #888888;
+}
+textarea.codebox{
+font: 70% courier;
+color: #00ff00;
+background: #000000;
+}

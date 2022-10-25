@@ -1,0 +1,177 @@
+BODY {
+	FONT: small sans-serif;
+	COLOR: #999999;
+	BACKGROUND-COLOR: #000000
+}
+IMG {
+	BORDER-RIGHT: 0px;
+	BORDER-TOP: 0px;
+	BORDER-LEFT: 0px;
+	BORDER-BOTTOM: 0px
+}
+b {
+	color: #000000;
+}
+A{
+	FONT: small sans-serif;
+	COLOR: #ffffff;
+	TEXT-DECORATION: none;
+}
+A.menuitem {
+	FONT: 80% sans-serif;
+	COLOR: #000000;
+	TEXT-DECORATION: none;
+}
+A:hover {
+	TEXT-DECORATION: underline;
+}
+A.seltab {
+	FONT: bold 90% sans-serif;
+	TEXT-DECORATION: none
+}
+A.seltab:hover {
+	TEXT-DECORATION: underline
+}
+A.tab {
+	font: 90% sans-serif;
+	TEXT-DECORATION: none
+}
+A.tab:hover {
+	TEXT-DECORATION: underline
+}
+A.menuitem:hover {
+	TEXT-DECORATION: underline
+}
+TD {
+	FONT: small sans-serif;
+	color: #000000;
+}
+H1 {
+	FONT: bold small sans-serif
+}
+H3 {
+	FONT: bold small sans-serif
+}
+FONT.tiny {
+	FONT: x-small sans-serif; COLOR: #000000
+}
+TD.tab {
+	PADDING-LEFT: 2px;
+	BACKGROUND: url(tab.png);
+	HEIGHT: 17px;
+}
+TD.tableft {
+	BACKGROUND: url(tableft.png);
+	WIDTH: 8px
+}
+TD.tabright {
+	BACKGROUND: url(tabright.png);
+	WIDTH: 8px
+}
+TD.seltab {
+	PADDING-LEFT: 2px;
+	BACKGROUND: url(seltab.png);
+	HEIGHT: 17px
+}
+TD.seltableft {
+	BACKGROUND: url(seltableft.png);
+	MARGIN-LEFT: 4px;
+	WIDTH: 8px
+}
+TD.seltabright {
+	BACKGROUND: url(seltabright.png);
+	WIDTH: 8px
+}
+TD.menubar {
+	BACKGROUND: url(menu.png);
+	HEIGHT: 14px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #4F4F4F;
+}
+TD.menubarleft {
+}
+TD.menubarright {
+}
+TD.menuitem {
+}
+TD.menuitemleft {
+	WIDTH: 16px;
+	HEIGHT: 16px
+}
+TD.menuitemright {
+}
+TD.head {
+	BACKGROUND: url(head.gif) #888888 repeat-x bottom;
+	FONT: small sans-serif;
+	COLOR: #000000;
+	vertical-align: top;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 8px;
+	HEIGHT: 16px;
+	border-top: 1px solid #bbbbbb;
+}
+TD.headleft {
+}
+TD.headright {
+}
+TD.cellleft {
+}
+TD.cell {
+	BACKGROUND: url(post.gif) #aaaaaa repeat-x bottom;
+	PADDING-BOTTOM: 4px;
+	COLOR: #000000;
+	PADDING: 4px;
+	BORDER-TOP: #bbbbbb 1px solid;
+	BORDER-BOTTOM: #999999 3px solid;
+}
+DIV.main {
+	PADDING: 16px;
+	BACKGROUND: url(base.gif) #999999 repeat-x;
+	COLOR: #000000;
+}
+TD.posthead {
+	BACKGROUND: url(head.gif) #888888 repeat-x bottom;
+	FONT: small sans-serif;
+	COLOR: #ffffff;
+	vertical-align: top;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 8px;
+	HEIGHT: 16px;
+	border-top: 1px solid #bbbbbb;
+}
+TD.posttext {
+	BORDER-TOP: #bbbbbb 1px solid;
+	BACKGROUND: url(post.gif) #aaaaaa repeat-x 50% bottom;
+	COLOR: #000000;
+	PADDING: 4px;
+}
+pre.code {
+	PADDING: 4px;
+	FONT: small sans-serif;
+	COLOR: #00ff00;
+	BACKGROUND-COLOR: #000000;
+}
+div.quote {
+	PADDING: 4px;
+	FONT-STYLE: italic;
+	BACKGROUND-COLOR: #bbbbbb;
+}
+div.intro {
+	PADDING-RIGHT: 4px;
+	BORDER-TOP: #bbbbbb 1px solid;
+	PADDING-LEFT: 4px;
+	BACKGROUND: url(post.gif) #aaaaaa repeat-x 50% bottom;
+	PADDING-BOTTOM: 4px;
+	COLOR: #000000;
+	PADDING-TOP: 4px;
+	BORDER-BOTTOM: #999999 4px solid;
+}
+textarea.codebox{
+	FONT: small sans-serif;
+	COLOR: #00ff00;
+	BACKGROUND-COLOR: #000000;
+}

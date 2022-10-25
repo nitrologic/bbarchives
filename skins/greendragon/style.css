@@ -1,0 +1,152 @@
+body{
+	font: x-small Tahoma;
+	background: url("background.png");
+}
+img{
+	border: 0px;
+}
+a{
+	color: #019600;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.seltab {
+font-weight: bold;
+color: #ffffff;
+}
+
+a.tab{
+color: #eee;
+font-weight: bold;
+}
+
+}
+a.menuitem{
+}
+a:hover{
+	text-decoration: underline;
+}
+a.tab:hover
+	color:#fff;
+}
+
+a.menuitem:hover{
+}
+td{
+	font: small Tahoma;
+}
+h1{
+	font: small Tahoma;
+}
+h3{
+	font: small Tahoma;
+}
+font.tiny{
+	font: x-small Tahoma;
+}
+
+td.tab{
+	height: 17px;
+	background: url("tab.png");
+	text-align: center;
+}
+td.tableft{
+	width: 8px;
+	background: url("tableft.png");
+}
+td.tabright{
+	width: 8px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 17px;
+	background: url("seltab.png");
+	text-align: center;
+}
+td.seltableft{
+	width: 8px;
+	background: url("seltableft.png");
+}
+td.seltabright{
+	width: 8px;
+	background: url("seltabright.png");
+}
+
+td.menubar{
+	height: 12px;
+	background: #000000;
+	border-left: solid 1px #000000;
+	border-right: solid 1px #000000;
+	border-top: solid 1px #000000;
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+
+td.menuitem{
+}
+td.menuitemleft{
+	width: 8px;
+}
+td.menuitemright{
+	width: 8px;
+}
+
+td.head{
+	height: 6px;
+	text-indent: 8px;
+	background: url(head.png);
+}
+td.headleft{
+	width: 1px;
+	background: url("headleft.png");
+}
+td.headright{
+	width: 1px;
+	background: url("headright.png");
+}
+
+td.cell{
+	padding: 8px;
+	background: #eeeeee;
+	border: solid 1px #c0c0c0;
+}
+div.main{
+	padding: 11px;
+	background: #f2f2f2;
+	font: x-small Tahoma;
+	border: solid 1px #000000;
+	width: 98%;
+}
+td.posthead{
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+td.posttext{
+	padding: 4px;
+	background: #c0c0c0;
+	border: solid 1px #000000;
+}
+pre.code{
+	font: 70% Tahoma;
+	padding: 8px;
+	color: #019600;
+	background: #000000;
+}
+div.quote{
+	font-style: italic;
+	padding: 8px;
+	color: #ffffff;
+	background: #019600;
+	border: solid 1px #000000;
+}
+div.intro{
+	padding: 8px;
+	border-top: solid 1px #019600;
+	border-bottom: solid 1px #019600;
+}

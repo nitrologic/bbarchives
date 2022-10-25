@@ -1,0 +1,138 @@
+body{
+	color: #ffffff;
+	font: 10pt verdana;
+	background: #003d78;
+	padding: 16px 32px;
+}
+img{
+	border: 0;
+}
+a{
+	color: #fff700;
+	font: 10pt verdana;
+	text-decoration: none;
+}
+a.tab{
+	font: 8pt verdana;
+}
+a.menuitem{
+	color: #ffffff;
+	font: 8pt verdana;
+}
+a.seltab{
+	font: 8pt verdana
+}
+a:hover{
+	text-decoration: underline;
+}
+h1{
+	font: bold 11pt verdana;
+}
+h3{
+	font: bold 10pt verdana;
+}
+font.small{
+	font: bold 7pt verdana;
+}
+font.tiny{
+	font: 7pt verdana;
+}
+td{
+	font: 10pt verdana;
+}
+td.tab{
+	font: 8pt verdana;
+	background: #1a79bd;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-top: 1px solid #2a89cd;
+	border-left: 1px solid #2a89cd;
+	border-right: 1px solid #0a69ad;
+	border-bottom: none;
+}
+td.tableft{
+	width: 4px;
+}
+td.tabright{
+}
+td.seltab{
+	font: 8pt verdana;
+	background: #2daaea;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-top: 1px solid #3dbafa;
+	border-left: 1px solid #3dbafa;
+	border-right: 1px solid #1f9ada;
+	border-bottom: none;
+}
+td.seltableft{
+	width: 4px;
+}
+td.seltabright{
+}
+td.menubar{
+	height: 20px;
+	background: url(menubar.jpg);
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+td.menuitem{
+}
+td.menuitemleft{
+	width: 4px;
+}
+td.menuitemright{
+	width: 4px;
+}
+td.head{
+	text-indent: 4px;
+	height: 18px;
+	background: #2daaea;
+}
+td.headleft{
+}
+td.headright{
+}
+
+td.cell{
+	padding: 4px;
+	background: #0a69ad;
+	border: solid 1px #2daaea;
+}
+td.posthead{
+	padding: 4px;
+	background: #2daaea;
+}
+td.posttext{
+	padding: 4px;
+	background: #0a69ad;
+	border-left: solid 1px #2daaea;
+	border-right: solid 1px #2daaea;
+	border-bottom: solid 1px #2daaea;
+}
+div.main{
+	padding: 8px;
+	font: 10pt verdana;
+	background: #1a79bd;
+}
+pre.code{
+	font: 8pt courier;
+	color: #00ff00;
+	background: #000000;
+}
+div.quote{
+	padding: 4px;
+	background-color: #1a79bd;
+	font: italic 8pt verdana;
+}
+textarea.codebox{
+	font: 8pt courier;
+	color: #00ff00;
+	background: #000000;
+}

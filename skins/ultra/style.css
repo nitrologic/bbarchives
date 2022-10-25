@@ -1,0 +1,195 @@
+body{
+	font: 12px verdana;
+	background: url("background.png");
+	background-attachment: fixed;
+}
+img{
+	border: 0px;
+}
+a{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+a.tab{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+a.menuitem{
+}
+a.seltab{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color: rgb(0,255,0);
+}
+a.seltab:hover{
+	font: 12px verdana;
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+a.tab:hover{
+	font: 12px verdana;
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+a.menuitem:hover{
+}
+h1{
+	font: bolder 14px verdana;
+	color: rgb(255,255,255);
+}
+h3{
+	font: bolder 12px verdana;
+	color: rgb(255,255,255);
+}
+font.tiny{
+	font: 10px verdana;
+}
+td{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+}
+td.tab{
+	height: 20px;
+	background: url("tab.png");
+	text-align: center;
+}
+td.tableft{
+	width: 0px;
+	background: url("");
+}
+td.tabright{
+	width: 0px;
+	background: url("");
+}
+td.seltab{
+	height: 20px;
+	background: url("seltab.png");
+	text-align: center;
+}
+td.seltableft{
+	width: 0px;
+	background: url("");
+}
+td.seltabright{
+	width: 0px;
+	background: url("");
+}
+td.menubar{
+	height: 17px;
+	background: url("menubarbackground.png");
+	border-top: solid 0px #888888;
+}
+td.menubarleft{
+	width: 0px;
+	background: url("");
+}
+td.menubarright{
+	width: 0px;
+	background: url("");
+}
+td.menuitem{
+}
+td.menuitemleft{
+	width: 8px;
+}
+td.menuitemright{
+}
+td.head{
+	height: 18px;
+	text-indent: 4px;
+	background: url("head.png");
+}
+td.headleft{
+	width: 0px;
+	background: url("");
+}
+td.headright{
+	width: 0px;
+	background: url("");
+}
+td.cell{
+	padding: 4px;
+	background: url("cellbackground.png");
+	border: solid 0px #ffffff;
+}
+div.main{
+	padding: 16px;
+	background: url("mainbackground.png");
+	border: solid 0px #888888;
+	color: rgb(255,255,255);
+}
+td.posthead{
+	background: url("postheader.png");
+	background-repeat: no-repeat;
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+td.posttext{
+	padding: 4px;
+	background: url("cellbackground.png");
+	border: solid 0px #888888;
+}
+pre.code{
+	padding: 8px;
+	font: 12px courier;
+	color: rgb(0,0,155);
+	background: rgb(255,255,255);
+	border: solid 1px rgb(0,155,0);
+}
+div.quote{
+	font-style: italic;
+	padding: 8px;
+	background: url("mainbackground.png");
+	border: solid 0px rgb(255,255,255);
+}
+div.intro{
+	padding: 8px;
+	border-top: solid 1px rgb(255,255,255);
+	border-bottom: solid 1px rgb(255,255,255);
+}
+input{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+	background: url("cellbackground.png");
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255,255,255);
+}
+select{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+	background: url("cellbackground.png");
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255,255,255);
+}
+submit{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+	background: url("cellbackground.png");
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255,255,255);
+}
+textarea{
+	font: 12px verdana;
+	color: rgb(255,255,255);
+	background: url("cellbackground.png");
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255,255,255);
+}
+textarea.codebox{
+	overflow:auto;
+	font: 12px courier;
+	color: #0000ff;
+	background: #eeeeee;
+}

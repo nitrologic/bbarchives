@@ -1,0 +1,227 @@
+body{
+	background: #CEDFEB url("background.png");
+	font-variant: normal;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: small;
+	color: #003366;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	color: #000033;
+	text-decoration: none;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+a.tab{
+	font-weight: bold;
+	color: #003366;
+	font-variant: small-caps;
+	font-size: 10px;
+}
+
+a.menuitem{
+	color: #003366;
+	font-variant: small-caps;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.tab:hover{
+}
+
+a.menuitem:hover{
+}
+
+td{
+	font: normal small verdana;
+	color: #003366;
+}
+
+h1{
+	font: bold medium verdana;
+	color: #006699;
+}
+
+h3{
+	font: bold small verdana;
+	color: #003366;
+}
+
+font.tiny{
+	font: bold normal xx-small verdana;
+}
+
+td.tab{
+	height: 16px;
+	background: url("tab.png");
+	font-size: 10px;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+td.tableft{
+	width: 13px;
+	background: url("tableft.png");
+}
+
+td.tabright{
+	width: 10px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 16px;
+	background: url("seltab.png");
+	color: #006666;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+td.seltableft{
+	width: 13px;
+	margin-left: 4px;
+	background: url("seltableft.png");
+}
+
+td.seltabright{
+	width: 10px;
+	background: url("seltabright.png");
+}
+
+td.menubar{
+	height: 24px;
+	background: url("menubar.png");
+	border-left: 1px none #888888;
+	border-right: 1px none #888888;
+	border-top: 1px none #888888;
+}
+
+td.menubarleft{
+	background-image: url("menubarleft.png");
+	width: 10px;
+}
+
+td.menubarright{
+	background-image: url("menubarright.png");
+	width: 10px;
+}
+
+td.menuitem{
+	padding-left: 4px;
+}
+
+td.menuitemleft{
+}
+
+td.menuitemright{
+	background-image: url("menubardiv.png");
+	width: 13px;
+	height: 24px;
+	padding-right: 4px;
+}
+
+td.head{
+	text-indent: 2px;
+	background: url("head.png");
+	height: 18px;
+	color: #006699;
+	font-variant: small-caps;
+	font-weight: bold;
+	/* Kludge (yup, they're still needed) for IE table inheritance bug */
+	text-align: left;
+}
+
+td.headleft{
+	width: 5px;
+	background: url("headleft.png");
+}
+
+td.headright{
+	width: 5px;
+	background: url("headright.png");
+}
+
+td.cell{
+	padding: 6px;
+	background: url("background.png");
+	border: 1px solid #ACC8D0;
+	font-variant: normal;
+	color: #006699;
+}
+
+div.main{
+	padding: 16px;
+	background: url("mainbackground.png");
+	border: 1px solid #ACC8D0;
+}
+
+td.posthead{
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+
+td.posttext{
+	padding: 4px;
+	background: url("background.png");
+	border: 1px solid #ACC8D0;
+	font-variant: normal;
+	color: #003366;
+}
+
+pre.code{
+	font: 115% courier, monospace;
+	color: #D3E4ED;
+	background: #225588;
+	border: 1px solid #ACC8D0;
+}
+
+div.quote {
+	font-style: italic;
+	color: #487682;
+	font-size: 90%;
+	padding: 6px 6px 6px 6px;
+}
+
+div.intro{
+	padding: 8px;
+	border-top: 1px solid #ACC8D0;
+	border-bottom: 1px solid #ACC8D0;
+}
+
+/*====  EXTRA BITS ====*/
+
+input {
+	background: #CDDFEA;
+	color: #003366;
+	border: 1px solid #ACC8D0;
+}
+
+textarea {
+	background: #CDDFEA;
+	color: #003366;
+	border: 1px solid #ACC8D0;
+	font: verdana;
+}
+
+select {
+	background: #CDDFEA;
+	color: #003366;
+	border: 1px solid #ACC8D0;
+}
+
+textarea.codebox{
+	font: 115% courier, monospace;
+	color: #D3E4ED;
+	background: #225588;
+}

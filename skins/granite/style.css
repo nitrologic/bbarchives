@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Blitz;
+    src: url("https://mojolabs.nz/Blitz.fon");
+}
+body{
+	color: #ffffff;
+	font: 10pt verdana;
+	background: #000000;
+	padding: 16px 12px;
+}
+img{
+	border: 0;
+	max-width:500px;
+}
+a{
+	color: #ffff00;
+	font: 10pt verdana;
+	text-decoration: none;
+}
+a.tab{
+	font: 8pt verdana;
+}
+a.menuitem{
+	color: #ffffff;
+	font: 10pt verdana;
+}
+a.seltab{
+	font: 8pt verdana
+}
+a:hover{
+	text-decoration: underline;
+}
+h1{
+	font: 16pt verdana;
+}
+h3{
+	font: 14pt verdana;
+}
+font.small{
+	font: bold 7pt verdana;
+}
+font.tiny{
+	font: 7pt verdana;
+}
+td{
+	font: 10pt verdana;
+}
+td.tab{
+	font: 8pt verdana;
+	background: #555555;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-top: 1px solid #666666;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #444444;
+	border-bottom: none;
+}
+td.tableft{
+	width: 4px;
+}
+td.tabright{
+}
+td.seltab{
+	font: 8pt verdana;
+	background: #888888;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #777777;
+	border-bottom: none;
+}
+td.seltableft{
+	width: 4px;
+}
+td.seltabright{
+}
+td.menubar{
+	height: 20px;
+	background: url(menubar.jpg);
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+td.menuitem{
+}
+td.menuitemleft{
+	width: 4px;
+}
+td.menuitemright{
+	width: 4px;
+}
+td.head{
+	text-indent: 4px;
+	height: 18px;
+	background: #888888;
+}
+td.headleft{
+}
+td.headright{
+}
+
+td.cell{
+	padding: 4px;
+	background: #444444;
+	border: solid 1px #888888;
+}
+td.posthead{
+	padding: 4px;
+	background: #888888;
+}
+td.posttext{
+	padding: 4px;
+	background: #444444;
+	border-left: solid 1px #888888;
+	border-right: solid 1px #888888;
+	border-bottom: solid 1px #888888;
+}
+div.main{
+	padding: 8px;
+	font: 10pt verdana;
+	background: #555555;
+}
+pre.code{
+	font: 10pt consolas,courier;
+	color: #222222;
+	background: #cfc9e4;
+	padding: 8px;
+}
+pre.blitz{
+	font: 10pt Blitz;
+	color: #222222;
+	background: #e4cfc9;
+	padding: 8px;
+}
+div.quote{
+	padding: 4px;
+	background-color: #555555;
+	font: italic 8pt verdana;
+}
+textarea.codebox{
+	font: 10pt consolas,courier;
+	color: #222222;
+	background: #e4cfc9;
+}

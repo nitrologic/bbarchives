@@ -1,0 +1,132 @@
+body{
+	font: small verdana;
+	background: #666666;
+	color: #ffffff;
+}
+
+img{
+	border: 0px;
+}
+a{
+	color: #ffff99;
+	text-decoration: none;
+}
+a.tab{
+}
+a.menuitem{
+}
+a:hover{
+	text-decoration: underline;
+}
+a.tab:hover
+	color: #ccffff;
+}
+a.menuitem:hover{
+}
+td{
+	color: #ffffff;
+	font: small verdana;
+}
+h1{
+	color: #ffffff;
+	font: bold small verdana;
+}
+h3{
+	color: #ffffff;
+	font: bold small verdana;
+}
+font.tiny{
+	color: #ffffff;
+	font: small verdana;
+}
+td.tab{
+	text-align: center;
+	height: 24px;
+	background: #404040;
+	border: solid 2px #333333;
+	border-bottom: 0px;
+}
+td.tableft{	
+}
+td.tabright{
+	width: 2px;
+}
+
+td.seltab{
+	text-align: center;
+	height: 24px;
+	border: solid 2px #333333;
+	border-bottom: 0px;	
+	background: #285677;
+}
+td.seltableft{
+}
+td.seltabright{
+	width: 2px;
+}
+
+td.menubar{
+	height: 24px;
+	border: solid 2px #333333;
+	background: #285677;
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+
+td.menuitem{
+}
+td.menuitemleft{
+	width: 16px;
+}
+td.menuitemright{
+}
+
+td.head{
+	height: 24px;
+	text-indent: 2px;
+	border: solid 1px #333333;
+	background: #285677;
+}
+td.headleft{
+}
+td.headright{
+}
+
+td.cell{
+	padding: 2px;
+	border: solid 1px #333333;
+	background: #404040;
+}
+div.main{
+	padding: 16px;
+	background: #333333;
+}
+td.posthead{
+	border: solid 1px #333333;
+	padding: 4px;
+	background: #285677;
+}
+td.posttext{
+	padding: 4px;
+	border: solid 1px #333333;
+	background: #404040;
+}
+pre.code{
+	font: small courier;
+	color: #00ff00;
+	background: #000000;
+}
+div.quote{
+	font: italic;
+	color: #cccccc;
+	background: #444444;
+}
+textarea.codebox{
+	overflow:auto;
+	font: small courier;
+	color: #00ff00;
+	background: #000000;
+}
+

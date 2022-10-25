@@ -1,0 +1,278 @@
+body{
+	background: #151515;
+	font-variant: normal;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #999999;
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	color: #BBBBBB;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+}
+
+a.tab{
+	font-weight: normal;
+	color: #6A6A6A;
+	font-variant: small-caps;
+}
+
+a.seltab{
+	font-weight: normal;
+	color: #666666;
+}
+
+a.menuitem{
+	color: #6A6A6A;
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a.tab:hover{
+	color: #CCCCCC;
+}
+
+a.seltab:hover{
+	color: #CCCCCC;
+}
+
+a.menuitem:hover{
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+td{
+	font: normal small verdana;
+	color: #666666;
+}
+
+h1{
+	font: bold medium verdana;
+	color: #999999;
+}
+
+h3{
+	font: bold small verdana;
+	color: #999999;
+}
+
+font.tiny{
+	font: normal xx-small verdana;
+	color: #666666;
+}
+
+td.tab{
+	height: 24px;
+	background: url("tab.png");
+	font-variant: normal;
+	font-weight: normal;
+	padding-left: 1px;
+	padding-right: 1px;
+	text-align: center;
+}
+
+td.tableft{
+	width: 15px;
+	background: url("tableft.png");
+}
+
+td.tabright{
+	width: 15px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 24px;
+	background: url("tab.png");
+	padding-left: 1px;
+	padding-right: 1px;
+	font-weight: normal;
+	text-align: center;
+}
+
+td.seltableft{
+	width: 15px;
+	margin-left: 4px;
+	background: url("seltableft.png");
+}
+
+td.seltabright{
+	width: 15px;
+	background: url("tabright.png");
+}
+
+td.menubar{
+	height: 28px;
+	background: url("menubar.png");
+	border-left: 1px none #888888;
+	border-right: 1px none #888888;
+	border-top: 1px none #888888;
+}
+
+td.menubarleft{
+	background-image: url("menubarleft.png");
+	width: 4px;
+}
+
+td.menubarright{
+	background-image: url("menubarright.png");
+	width: 4px;
+}
+
+td.menuitem{
+	padding-left: 6px;
+	padding-right: 10px;
+}
+
+td.menuitemleft{
+	width: 4px;
+}
+
+td.menuitemright{
+	background-image: url("menubardiv.png");
+	width: 4px;
+	height: 28px;
+}
+
+td.head{
+	text-indent: 4px;
+	background: #313131;
+	height: 18px;
+	color: #999999;
+	font-variant: normal;
+	font-weight: normal;
+	border-top: 1px solid #434343;
+	border-right: 1px solid #0F0F0F;
+	border-bottom: 1px solid #0F0F0F;
+	border-left: 1px solid #434343;
+	font-style: normal;
+	/* Kludge (yup, they're still needed) for IE table inheritance bug */
+	text-align: left;
+}
+
+td.headleft{
+	width: 0px;
+}
+
+td.headright{
+	width: 0px;
+}
+
+td.cell{
+	padding: 6px;
+	background: #151515;
+	font-variant: normal;
+	color: #999999;
+	border-top: 1px solid #080808;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #080808;
+}
+
+div.main{
+	padding: 16px;
+	background: #212121;
+	border-top: 1px none;
+	border-right: 1px solid #0F0F0F;
+	border-bottom: 1px solid #0F0F0F;
+	border-left: 1px solid #333333;
+}
+
+td.posthead{
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	background: #313131;
+	border-top: 1px solid #434343;
+	border-right: 1px solid #0F0F0F;
+	border-bottom: 1px solid #0F0F0F;
+	border-left: 1px solid #434343;
+}
+
+td.posttext{
+	padding: 4px;
+	background: #151515;
+	font-variant: normal;
+	color: #999999;
+	border-top: 1px solid #080808;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #080808;
+}
+
+pre.code{
+	font: 115% courier, monospace;
+	color: #00ff00;
+	background: #000000;
+	border-top: 1px solid #080808;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #080808;
+}
+
+div.quote{
+	font-style: italic;
+	color: #626262;
+	font-size: 90%;
+	padding: 6px 6px 6px 6px;
+}
+
+div.intro{
+	padding: 8px;
+	border-top: 1px dashed #999999;
+	border-bottom: 1px dashed #999999;
+}
+
+/*====  EXTRA BITS  ====*/
+
+body {
+	scrollbar-highlight-color: #212121;
+	scrollbar-track-color: #151515;
+	scrollbar-base-color: #212121;
+	scrollbar-shadow-color: #212121;
+	scrollbar-face-color: #212121;
+	scrollbar-arrow-color: #666666;
+	scrollbar-darkshadow-color: #080808;
+	scrollbar-3dlight-color: #333333;
+}
+
+input{
+	background: #0f0f0f;
+	color: #999999;
+	border-color: #000000;
+	border-width: 1px;
+}
+
+textarea {
+	background: #0f0f0f;
+	color: #999999;
+	font: verdana;
+	border-color: #000000;
+	border-width: 1px;
+}
+
+select {
+	background: #151515;
+	color: #999999;
+	border-color: #000000;
+	border-width: 1px;
+}
+
+textarea.codebox{
+	font: 115% courier, monospace;
+	color: #00ff00;
+	background: #000000;
+}

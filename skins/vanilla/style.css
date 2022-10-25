@@ -1,0 +1,137 @@
+body{
+	font: 8pt verdana;
+	background: url("background.png");
+}
+img{
+	border: 0px;
+}
+a{
+	color: #211F19;
+	text-decoration: none;
+}
+a.tab{
+}
+a.menuitem{
+}
+a:hover{
+	text-decoration: underline;
+}
+a.tab:hover
+	color: #FFFFFF;
+}
+a.menuitem:hover{
+}
+td{
+	font: 8pt verdana;
+}
+h1{
+	font: bold 10pt verdana;
+}
+h3{
+	font: bold 8pt verdana;
+}
+font.tiny{
+	font: 7pt verdana;
+}
+
+td.tab{
+	height: 18px;
+	background: url("tab.png");
+}
+td.tableft{
+	width: 16px;
+	background: url("tableft.png");
+}
+td.tabright{
+	width: 16px;
+	background: url("tabright.png");
+}
+
+td.seltab{
+	height: 18px;
+	background: url("seltab.png");
+}
+td.seltableft{
+	width: 16px;
+	margin-left: 4px;
+	background: url("seltableft.png");
+}
+td.seltabright{
+	width: 16px;
+	background: url("seltabright.png");
+}
+
+td.menubar{
+	height: 18px;
+	background: #FEF9EA;
+	border-left: solid 1px #FEF9EA;
+	border-right: solid 1px #FEF9EA;
+	border-top: solid 1px #000000;
+}
+td.menubarleft{
+}
+td.menubarright{
+}
+
+td.menuitem{
+}
+td.menuitemleft{
+	width: 18px;
+}
+td.menuitemright{
+}
+
+td.head{
+	height: 18px;
+	text-indent: 4px;
+	background: url(head.png);
+}
+td.headleft{
+	width: 1px;
+	background: url("headleft.png");
+}
+td.headright{
+	width: 1px;
+	background: url("headright.png");
+}
+
+td.cell{
+	padding: 8px;
+	background: #FFFAEB;
+	
+	border-left: solid 1px #DFDCD3;
+	border-top: solid 1px #DFDCD3;
+
+	}
+div.main{
+	padding: 16px;
+	background: #ffffff;
+	font: 10pt verdana;
+	border: solid 1px #888888;
+}
+td.posthead{
+	padding-top: 8px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+}
+td.posttext{
+	padding: 4px;
+	background: #FFFAEB;
+	border: solid 1px #888888;
+}
+pre.code{
+	font: 8pt courier;
+	color: #00ff00;
+	background: #000000;
+}
+div.quote{
+	padding: 4px;
+	font-style: italic;
+	background: #eee9da;
+}
+textarea.codebox{
+	font: 8pt courier;
+	color: #00ff00;
+	background: #000000;
+}

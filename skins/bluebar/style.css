@@ -1,0 +1,223 @@
+body
+{
+	background-image	: url( "background.gif" );
+	background-repeat	: repeat;
+	background-color	: #C1C4C6;
+	font-family		: verdana, arial, helvetica, serif;
+	font-size		: 11px;
+	color			: #000000;
+	margin			: 0px;
+}
+
+a
+{
+	color			: #333333;
+	background-color	: transparent;
+	text-decoration		: underline;
+	font-weight		: bold;
+}
+a:hover
+{
+	text-decoration		: none;
+}
+a:visited
+{
+	color			: #763A3A;
+	background-color	: transparent;
+}
+
+
+a.menuitem
+{
+	color			: #FFFFFF;
+	background-color	: transparent;
+	font-weight		: bold;
+	text-decoration		: none;
+}
+a.menuitem:visited
+{
+	color			: #FFFFFF;
+}
+
+
+a.tab
+{
+	color			: #FFFFFF;
+	font-weight		: bold;
+}
+a.tab:hover
+(
+	color			: #ccffff;
+}
+a.tab:visited
+{
+	color			: #FFFFFF;
+}
+
+img
+{
+	border			: 0px;
+}
+
+
+td
+{
+	font-family		: verdana, arial, helvetica, serif;
+	font-size		: 11px;
+}
+
+
+h1
+{
+	font-family		: verdana, arial, helvetica, serif;
+	font-size		: 13px;
+}
+h3
+{
+	font-family		: verdana, arial, helvetica, serif;
+	font-size		: 12px;
+}
+
+font.tiny
+{
+	font-family		: verdana, arial, helvetica, serif;
+	font-size		: 9px;
+}
+
+
+td.tab
+{
+	height			: 25px;
+	background		: url( "tab.gif" );
+	text-align		: center;
+	color			: #FFF;
+	font-weight		: bold;
+}
+td.tableft
+{
+	width			: 2px;
+	background		: url("tableft.gif");
+}
+td.tabright
+{
+	width			: 2px;
+	background		: url("tabright.gif");
+}
+
+td.seltab
+{
+	height			: 25px;
+	background		: url("seltab.gif");
+	text-align		: center;
+	color			: #FFF;
+	font-weight		: bold;
+}
+td.seltableft
+{
+	width			: 2px;
+	margin-left		: 0px;
+	background-image	: url( "seltableft.gif" );
+}
+td.seltabright
+{
+	width			: 2px;
+	background-image	: url( "seltabright.gif" );
+}
+
+td.menubar
+{
+	height			: 28px;
+	background-color	: #FFFFFF;
+	background-color	: transparent;
+	background-repeat	: repeat-x;
+	background		: url("head.gif");
+	
+}
+td.menubarleft
+{
+	background		: url("headleft.gif");
+	width			: 13px;
+}
+td.menubarright
+{
+	background		: url("headright.gif");
+	width			: 13px;
+}
+
+td.menuitem
+{
+	height			: 17px;
+}
+td.menuitemleft
+{
+	width			: 5px;
+	height			: 17px;
+}
+td.menuitemright
+{
+	width			: 5px;
+	height			: 17px;
+}
+
+td.head
+{
+	height			: 25px;
+	text-indent		: 4px;
+	background		: url( "tab.gif" );
+}
+td.headleft
+{
+	width			: 2px;
+	background		: url( "tableft.gif" );
+}
+td.headright
+{
+	width			: 2px;
+	background		: url("tabright.gif");
+}
+
+td.cell
+{
+	padding			: 4px;
+	background-color	: #B1B8C2;
+	border			: 0px;
+}
+div.main
+{
+	padding			: 16px;
+	background-color	: #D5D7D9;
+	font			: 10pt verdana;
+	border			: solid 1px #888888;
+}
+td.posthead
+{
+	padding-top		: 0px;
+	padding-left		: 4px;
+	padding-right		: 4px;
+	padding-bottom		: 0px;
+
+}
+td.posttext
+{
+	padding			: 4px;
+	background		: #B1B8C2;
+	border			: solid 1px #888888;
+}
+pre.code
+{
+	
+	font-size		: 12px;
+	border			: 1px solid #333333;
+	width			: 100%;
+	background-color	: #D5D7D9;
+}
+div.quote
+{
+	background-color	: #8B919C;
+	border			: 1px solid #999999.
+	color			: #FFFFFF;
+}
+textarea.codebox{
+	font-size		: 12px;
+	background-color	: #D5D7D9;
+}
