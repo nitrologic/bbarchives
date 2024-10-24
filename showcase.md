@@ -1,1 +1,1 @@
-![image](/gallery/1.jpg)
+![image](/gallery/2.jpg)
